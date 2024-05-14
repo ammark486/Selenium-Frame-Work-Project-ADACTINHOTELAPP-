@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a8a15c81-4aa1-4200-ba36-e720c4434f16" name="ammar@MUHAMMAD-AMMAR- 2024-05-14 21:17:12" runUser="MUHAMMAD-AMMAR-\ammar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-05-14T21:17:12.9389035+05:00" queuing="2024-05-14T21:17:12.9389035+05:00" start="2024-05-14T21:16:51.7320288+05:00" finish="2024-05-14T21:17:20.1107977+05:00" />
+  <TestSettings name="default" id="81e8aeed-8193-445c-b52f-fdb73a770650">
+    <Deployment runDeploymentRoot="ammar_MUHAMMAD-AMMAR-_2024-05-14_21_17_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0a2643c7-81be-4167-a7e8-8571c07e6d68" testId="7d6c98b0-84d7-6ebb-a376-8f63b6b2bd25" testName="BookHotel_TC001 (Data Row 1)" computerName="MUHAMMAD-AMMAR-" duration="00:00:06.2431766" startTime="2024-05-14T21:16:52.2759032+05:00" endTime="2024-05-14T21:17:12.0037913+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a2643c7-81be-4167-a7e8-8571c07e6d68">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumDemoProject.TestExecution.BookHotel_TC001 threw exception: &#xD;
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#location"}
+  (Session info: chrome=124.0.6367.202); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)&#xD;
+   at SeleniumDemoProject.CorePage.Write(By by, String data) in C:\Users\ammar\source\repos\SeleniumDemoProject\SeleniumDemoProject\CorePage.cs:line 58&#xD;
+   at SeleniumDemoProject.SearchPage.SearchHotel() in C:\Users\ammar\source\repos\SeleniumDemoProject\SeleniumDemoProject\WebApp\SearchHotelPage\SearchPage.cs:line 40&#xD;
+   at SeleniumDemoProject.TestExecution.BookHotel_TC001() in C:\Users\ammar\source\repos\SeleniumDemoProject\SeleniumDemoProject\TestExecution.cs:line 117&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6d0e18b-64e8-471a-ae32-607f5d61f0db" testId="7d6c98b0-84d7-6ebb-a376-8f63b6b2bd25" testName="BookHotel_TC001 (Data Row 0)" computerName="MUHAMMAD-AMMAR-" duration="00:00:13.3146487" startTime="2024-05-14T21:16:52.2759032+05:00" endTime="2024-05-14T21:17:12.0037913+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6d0e18b-64e8-471a-ae32-607f5d61f0db" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BookHotel_TC001" storage="c:\users\ammar\source\repos\seleniumdemoproject\seleniumdemoproject\bin\debug\seleniumdemoproject.dll" id="7d6c98b0-84d7-6ebb-a376-8f63b6b2bd25">
+      <TestCategory>
+        <TestCategoryItem TestCategory="BookHotel" />
+      </TestCategory>
+      <Execution id="e6d0e18b-64e8-471a-ae32-607f5d61f0db" />
+      <TestMethod codeBase="C:\Users\ammar\source\repos\SeleniumDemoProject\SeleniumDemoProject\bin\Debug\SeleniumDemoProject.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumDemoProject.TestExecution" name="BookHotel_TC001" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7d6c98b0-84d7-6ebb-a376-8f63b6b2bd25" executionId="0a2643c7-81be-4167-a7e8-8571c07e6d68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d6c98b0-84d7-6ebb-a376-8f63b6b2bd25" executionId="e6d0e18b-64e8-471a-ae32-607f5d61f0db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

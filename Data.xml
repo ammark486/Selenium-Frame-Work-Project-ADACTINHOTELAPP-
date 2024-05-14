@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+	<Exection>
+		<BookHotel_TC001>
+			<url>http://adactinhotelapp.com/</url>
+			<username>AmmarTester</username>
+			<password>ammar12</password>
+		</BookHotel_TC001>
+		<BookHotel_TC001>
+			<url>http://adactinhotelapp.com/</url>
+			<username>AmmarTester123</username>
+			<password>ammar123</password>
+		</BookHotel_TC001>
+	</Exection>
+</Automation>
